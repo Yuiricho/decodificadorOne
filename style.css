@@ -1,0 +1,105 @@
+
+
+
+:root {
+    --corprincipal: #F3F8FF;
+    --corsegunda: #E26EE5;
+    --corterceira: #7E30E1;
+    --cortitulo: #49108B;
+}
+* {
+    background: #b17ced;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    margin-left: 6px;
+    padding-top: 3px;
+    width:2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: 3px;
+    border-color: var(--corterceira);
+    border-radius: 24px;
+    background-color: #b17ced;
+    color: black;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder { color: var(--cortitulo); }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensagem {
+    background:#b17ced;
+    background-image: url("imagens/gatotecla.gif");
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    border-color: var(--corterceira);
+    color: black;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 470px;
+    position: fixed;
+}
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background:var(--corsegunda);
+    border: 1px solid var(--corterceira);
+    border-radius: 24px;
+    color: var(--cortitulo);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: var(--corsegunda);
+    border: 1px solid var(--corterceira);
+    border-radius: 24px;
+    color: var(--cortitulo);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    background-color: var(--corsegunda);
+    border: 1px solid var(--corterceira);
+    border-radius: 24px;
+    color: var(--cortitulo);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 470px;
+}
+
+.informacao {
+    color: var(--cortitulo);
+    font-size:18px;
+}
+
+ 
